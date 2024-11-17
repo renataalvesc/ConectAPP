@@ -71,7 +71,7 @@ export default function Register(){
 
             <Button
               title="Criar uma conta"
-              color="#3366FF"
+              color="#121212"
               onPress={handleSignUp}
             />
 
@@ -96,7 +96,7 @@ export default function Register(){
             />
             <Button
               title="Ativar conta"
-              color="#3366FF"
+              color="#121212"
               onPress={handleVerifyUser}
             />
           </View>
@@ -120,15 +120,15 @@ const styles = StyleSheet.create({
   },
   input: {
     marginVertical: 4,
-    height: 60,
-    borderWidth: 2,
-    borderColor: '#3366FF',
-    borderRadius: 10,
-    padding: 15,
+    height: 50,
+    borderWidth: 1,
+    borderColor: '#121212',
+    borderRadius: 8,
+    padding: 10,
     backgroundColor: '#fff',
   },
   button: {
-    margin: 10,
+    margin: 8,
     alignItems: 'center',
   },
 });
